@@ -29,7 +29,7 @@ class CodeRain {
   private codeArr: string[];
   private pointArr: number[];
 
-  constructor(options: Options) {
+  constructor(options?: Options) {
     this.options = Object.assign(
       {
         code: 'Hello World',
